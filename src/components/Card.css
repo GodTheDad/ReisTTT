@@ -1,0 +1,98 @@
+.fontlink{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+
+.Card {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid rgb(237, 151, 38);; */
+    border-radius: 5%;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: .6s;
+    color: rgb(45,128,192);
+    background-color: rgb(45,128,192);
+    /* padding: 400px; */
+}
+.Card:hover {
+    transition: .6s;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(164, 208, 242);
+    border: 5px;
+    border-color: rgb(45,128,192);
+    border-radius: 10px;
+    color: white
+} 
+.Card h1{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0px;
+
+}
+.Card:hover #dissapimage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .5s;
+    transform: translate(-50%, -300%); 
+    height: 40px;
+    width: 40px;
+    opacity: 0%;
+}
+.Card:hover .cardimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: .5s;
+    transform: translate(-50%, -300%); 
+    height: 40px;
+    width: 40px;
+}
+#dissapimage{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 60px;
+    width: 60px;
+    transition: .5s;
+    /* visibility: visible; */
+    opacity: 100%;
+}
+.cardimg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    height: 60px;
+    width: 60px;
+    transition: .5s;
+}
+
+#CardDesc{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 0%;
+    transition: .5s;
+}
+
+.Card:hover #CardDesc{
+    visibility:visible;
+    color: rgb(45,128,192);
+    opacity: 100%;
+    transition: .5s;
+}
+

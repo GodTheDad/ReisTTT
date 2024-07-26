@@ -1,0 +1,42 @@
+.Black{
+    background-color: rgb(1, 3, 41);
+}
+
+.white{
+    color: aliceblue;
+
+}
+
+.title{
+    margin: 0px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: underline;
+}
+
+.footerlist{
+    list-style-type: none;
+    padding: 0px 20px 0px 20px;
+}
+
+.Footer{
+    margin: 0px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+}
+
+.footerlogo{
+    color :aliceblue;
+   font-size: 32px;
+   position: relative;
+    left: 20px;
+
+}
+
+.listdiv{
+    margin: 2%;
+}
+
+i{
+    margin: 0% 2% 0% 2%;
+}

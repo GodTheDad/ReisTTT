@@ -1,0 +1,20 @@
+.buttoncenter{
+    border: none;
+    background: transparent;
+    padding: 20px 40px;
+    border-radius: 15px;
+    border-color:#f3fcff;;
+    border-style: solid;
+    border-width: 2;
+    color:aliceblue;
+    font-weight: bold;
+    font-size:15px;
+    transition: .4s;
+
+    
+}
+
+.buttondiv{
+display: flex;
+justify-content: center;
+}

@@ -1,0 +1,44 @@
+.button{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%); 
+    /* width: 100%; */
+    text-align: center;
+    font-size: 18px;
+}
+.buttonnext{
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translate(-50%, -50%); 
+    /* width: 100%; */
+    text-align: center;
+    font-size: 18px;
+}
+
+.buttondesign{
+    width: 60px;
+    height: 60px;
+    color: white;
+    background-color: rgb(45,128,192);
+}
+
+.slideshowcontainer{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+}
+
+.slideshowimg{
+    width: 100%;
+    height: 100%;
+}
+
+/* .prev{
+    transform: translate(-50%, -50%); 
+}
+
+.next{
+    transform: translate(100%, -50%); 
+} */

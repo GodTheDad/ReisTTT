@@ -1,0 +1,15 @@
+@media screen and (max-width: 600px) {
+    .mainsectionbody{
+        display: block;
+    }
+    .sectionimg{
+        width: 50%;
+        height: 100%;
+    }
+    .Lefttext{ 
+        text-align: center;
+    }
+    .Righttext{ 
+        text-align: center;
+    }
+  }

@@ -1,0 +1,92 @@
+
+nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+    
+}
+
+.logofr{
+   color :rgb(45,128,192);;
+   font-size: 32px;
+   position: relative;
+    left: 20px;
+   /* padding-left: 20px; */
+   /* animation-name: Change2;
+   animation-delay: 8s;
+   animation-duration: 8s; */
+}
+
+.logofr span{
+    color:rgb(45,128,192); ;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(45,128,192);;
+    font-size: 17px;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.nav ul li:hover {
+    color: rgb(45,128,192);
+    transition: .3s;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+.navbuttonfr {
+    border: none;
+    background: transparent;
+    padding: 12px 30px;
+    border-radius: 15px;
+    border-color:rgb(45,128,192);;
+    border-style: solid;
+    border-width: 2;
+    color:rgb(45,128,192);
+    font-weight: bold;
+    font-size:15px;
+    transition: .4s;
+    margin-right: 20px;
+    position: relative;
+    right: 20px;
+    animation: Change2;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+}
+
+button:hover{
+    background: rgb(45,128,192);
+    border-radius: 30px;
+    padding: 15px 35px;
+    color: aliceblue;
+}
+
+
+/* @keyframes change1 {
+    
+    0% {background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../assets/Carousel1.png); }
+    33% {background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/Carousel2.png);}
+    66% {background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/Carousel3.png);}
+    100%{background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../assets/Carousel1.png);}
+  }
+
+@keyframes Change2{
+    from { right: 300px;}
+    to { right: 20px;}
+} */
+
+.logodiv{
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+.logoimgfr{
+    width: 15%;
+}

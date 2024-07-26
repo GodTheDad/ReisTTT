@@ -1,0 +1,6 @@
+.triangle {
+    font-size: 0px; line-height: 0%; width: 0px;
+    border-top: 20vh solid rgb(45,128,192);
+    border-left: 50vw solid #ffffff;
+    border-right: 49.2vw solid #ffffff;
+}
