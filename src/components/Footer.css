@@ -40,3 +40,10 @@
 i{
     margin: 0% 2% 0% 2%;
 }
+
+@media screen and (max-width: 1000px) {
+    .listdiv{
+        display: none;
+    }
+
+}

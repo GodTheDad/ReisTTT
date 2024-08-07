@@ -90,3 +90,9 @@ button:hover{
 .logoimgfr{
     width: 15%;
 }
+
+@media screen and (max-width: 600px) {
+    .navbutton{
+        display: none;
+    }
+}

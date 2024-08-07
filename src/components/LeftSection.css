@@ -45,3 +45,18 @@ h3{
 .firstrow{
     width:  100vh;
 }
+
+@media screen and (max-width: 1000px) {
+    .righttext{
+        text-align:center;
+    }
+    .imgdivlft{  
+        display: none;
+    }
+    .firstrow{
+        width: 90vw;
+    }
+    .Mainsection{
+        width: 100vw;
+    }
+}

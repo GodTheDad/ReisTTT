@@ -9,7 +9,7 @@ const NewNav= () => {
             <img src='https://i.imgur.com/4uIp4nA.png' className="logoimg"/>
             <h2 className = "logo"><span>Reis</span>TableTennis</h2>
           </div>
-            <ul>
+            <ul className='galist'>
             <a href='#about'><li>Home</li></a>
             <a href='#about'><li>About</li></a>
             <a href='gallery'><li>Albums</li></a>

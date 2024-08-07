@@ -1,15 +1,23 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .mainsectionbody{
         display: block;
+        
     }
-    .sectionimg{
-        width: 50%;
-        height: 100%;
-    }
+    
+    
     .Lefttext{ 
         text-align: center;
     }
     .Righttext{ 
         text-align: center;
+    }
+    .timerdiv{
+        display: none;
+    }
+    .galist{
+        display: none;  
+    }
+    .textfr{
+        font-size: 1px;
     }
   }

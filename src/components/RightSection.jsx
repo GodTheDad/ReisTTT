@@ -14,7 +14,9 @@ const Rightsection = ({colour, title, desc,imgsrc}) => {
                 {desc}
             </h3>
         </div>
+        <div className="imgdiv">
         <img className= "sectionimg"src={imgsrc}/>
+        </div>
       </div>
     </section>
   );

@@ -48,3 +48,20 @@ h3{
 .newrow{
     width:  100vh;
 }
+
+@media screen and (max-width: 1000px) {
+    .imgdiv{
+        display: none;
+    
+    }
+    .sectionimg{
+        width: 80vw;
+        height: 80%;
+    }
+    .newrow{
+        width: 500px;
+    }
+    .Mainsection{
+        width: 100vw;
+    }
+}
