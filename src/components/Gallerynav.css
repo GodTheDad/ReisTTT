@@ -12,6 +12,7 @@ nav{
    font-size: 32px;
    position: relative;
     left: 20px;
+   text-decoration: none;
    /* padding-left: 20px; */
    /* animation-name: Change2;
    animation-delay: 8s;
@@ -85,8 +86,11 @@ button:hover{
     display: flex;
     align-items: center;
     padding-left: 2%;
+    
 }
-
+span{
+    text-decoration: none;
+}
 .logoimgfr{
     width: 15%;
 }
@@ -94,5 +98,13 @@ button:hover{
 @media screen and (max-width: 600px) {
     .navbutton{
         display: none;
+    }
+    .navbuttonfr{
+        padding: 10px 22px;
+
+    }
+    .navbuttonfr:hover {
+        padding: 10px 22px;
+
     }
 }

@@ -21,11 +21,14 @@ const Gallery = () => {
   return (
     <>
     <Gallerynav/>
-    <div >
+    
       <h3 className='BlackFr'>REIS TOURNAMENT 2024</h3>
+      <div className='gallerydiv'>
+        <div className='galldiv2'>
       {imgList.map((map) => {return (
         <img className='galleryimg' src ={map}/>
       )} )}
+      </div>
     </div>
     {/* <div >
       <h3 className='BlackFr'>REIS TOURNAMENT 2022</h3>

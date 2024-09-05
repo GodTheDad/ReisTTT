@@ -40,10 +40,40 @@
 i{
     margin: 0% 2% 0% 2%;
 }
+.icon {
+    padding-left: 100px;
+}
+
+
+
+.holderdiv{
+    margin: 0px;
+    padding: 20px;
+    display:flex;
+    align-items: center;
+}
+
 
 @media screen and (max-width: 1000px) {
     .listdiv{
         display: none;
     }
+
+    .icon {
+        padding-left: 30px;
+    }
+
+    .footerlogo{
+        color :aliceblue;
+       font-size: 20px;
+       position: relative;
+        left: 20px;
+    
+    }
+    .holderdiv{
+
+        display:block;
+    }
+    
 
 }

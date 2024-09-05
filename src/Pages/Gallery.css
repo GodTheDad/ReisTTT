@@ -10,3 +10,19 @@
 .Blackfr{
     color: black;
 }
+.gallerydiv{
+   display: flex; 
+}
+
+@media screen and (max-width: 600px) {
+    .galleryimg{
+        width:90%;
+        height: 50vh;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .galleryimg{
+        width:50%;
+        height: 40vh;
+    }
+}
